@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'big_johnregular';
+    src: url('../fonts/big_john-webfont.eot'),
+         url('../fonts/big_john-webfont.woff2'), 
+         url('../fonts/big_john-webfont.woff'), 
+         url('../fonts/big_john-webfont.ttf'); 
+}
+@font-face {
+    font-family: 'slim_joe';
+    src: url('../fonts/slim_joe-webfont.eot'),
+         url('../fonts/slim_joe-webfont.woff'),
+         url('../fonts/slim_joe-webfont.woff2'),
+         url('../fonts/slim_joe-webfont.ttf'),
+         url('../fonts/slim_joe-webfont.svg');
+}  
+
+@font-face {
+    font-family: 'ambleregular';
+    src: url('../fonts/amble-regular.eot'),
+         url('../fonts/amble-regular.woff'),
+         url('../fonts/amble-regular.woff2'),
+         url('../fonts/amble-regular.ttf'),
+         url('../fonts/amble-regular.svg');
+}
+ @font-face {
+    font-family: 'amblebold';
+    src: url('../fonts/amble-bold.eot'),
+         url('../fonts/amble-bold.woff'),
+         url('../fonts/amble-bold.woff2'),
+         url('../fonts/amble-bold.ttf'),
+         url('../fonts/amble-bold.svg');
+}        
+ @font-face {
+    font-family: 'amblelight';
+    src: url('../fonts/amble-light.eot'),
+         url('../fonts/amble-light.woff'),
+         url('../fonts/amble-light.woff2'),
+         url('../fonts/amble-light.ttf'),
+         url('../fonts/amble-light.svg');
+}        

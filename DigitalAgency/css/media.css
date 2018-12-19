@@ -1,0 +1,90 @@
+@media(max-width: 1125px) {
+	.home {
+		height: 700px;
+	}
+	.sentence-1 {
+	font-size: 42px;
+	margin-top: 180px;
+	}
+	.sentence-2 {
+	margin-bottom: 150px;
+	}
+	.white-box {
+		height: 350px;
+		padding-top: 90px;
+	}
+	.creativity-box, .help, .quote {
+		height: 350px;
+	}
+	.creativity-box a, .help a,.quote a {
+	    padding: 20px 60px;
+	    font-size: 26px;
+	}
+	.our-work{
+		height: 1300px;
+	}
+	.line-3 {
+		margin: 50px auto;
+	}
+	.works {
+		padding-top: 90px;
+	}
+	.portfolio img {
+		width: 200px;
+	}
+	.about {
+	height: 700px;
+	}
+	.staff {
+	margin-top: 40px;
+	}
+	.staff-box {
+	margin-left: 20px;
+	}
+	.staff-box .member {
+		width: 220px;
+		height: 280px;
+	}
+	.new-staff {
+		width: 200px;
+		height: 280px;
+	}
+	.new-staff a {
+		width: 140px;
+		height: 30px;
+		line-height: 30px;
+	}
+	.line-5 {
+		margin: 20px auto;
+	}
+	.video iframe {
+		top: 0;
+		position: absolute;
+		height: 200px;
+	}
+	.video {
+		position: absolute;
+	}
+	.play-button {
+	position: absolute;
+    transform: translateY(-280%);
+    left: 50%;
+    cursor: pointer;
+}
+	.video-img {
+	position: relative;
+}
+	.location {
+	padding-left: 80px;
+	}
+	input[type=text] {
+		width: 200px;
+		margin-left: 60px;
+	}
+	input#message {
+	width: 460px;
+	}
+	.send a {
+		margin-left: 330px;
+	}
+}
