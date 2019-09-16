@@ -1,0 +1,237 @@
+:root {
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    color: #fff;
+} 
+
+/*** Header ***/
+.header {
+    position: relative;
+}
+.header-slider {
+    z-index: -2;
+}
+.header-slider img {
+    height: 306px;
+}
+.navigation {
+    width: 100%;
+    height: 43px;
+    line-height: 43px;
+    background-color: #001429;
+    opacity: 0.85;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.language-box {
+    margin-top: 4px;
+    margin-left: 30px;
+}
+.language-box img {
+    margin-right: 10px;
+    opacity: 0.6;
+    cursor: pointer;
+} 
+.language-box img:hover {
+    opacity: 1;
+}
+.nav-bar ul {
+    font-size: 1.4rem;
+    font-weight: bold;
+    display: inline-flex;
+}
+.nav-bar ul li {
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+/*** Left Menu Bar ***/
+aside {
+    width: 270px;
+    background: #EBEBEB;
+    border-bottom-right-radius: 10px;
+    opacity: .8;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.header-aside {
+    height: 306px;
+    display: flex;
+    justify-content: center;
+    margin-left: -20px;
+    margin-top: -20px;
+}
+.menu {
+    background: #EBEBEB;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 20px;
+}
+.menu-title {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #0067D0;
+    border-left: 5px solid #0067D0;
+    padding-left: 20px;
+    margin-top: 40px;
+}
+.menu-items {
+    font-size: 1.4rem;
+    font-style: italic;
+    margin-left: 35px;  
+}
+.menu-items li {
+    margin-top: 15px;
+}
+.menu-items a {
+    color: #434343;
+}
+.menu-items a:hover {
+    color: #0067D0;
+}
+
+/*** Tour Section ***/
+main {
+    position: absolute;
+    left: 290px;
+    margin-top: 20px;
+}
+.tour-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+}
+.tour-section article {
+    position: relative;
+}
+.tour-section a {
+    position: absolute;
+    color: inherit;
+    font-size: 2rem;
+    font-weight: bold;
+    left: 8%;
+    top: 40%;
+}
+.tour-section img {
+    border-radius: 5px;
+    width: 95%;
+}
+
+/*** Videos and Photos ***/
+.multimedia {
+    background-color: #EBEBEB;
+    margin-top: 30px;
+    border-top-left-radius: 10px;
+    padding-left: 30px;
+}
+.multimedia-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #000;
+    padding-top: 50px;
+}
+.multimedia-box {
+    padding: 30px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.instagram span::before {
+    content: "";
+    height: 1px;
+    width: 450px;
+    background-color: #B1B1B1;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 2px;
+}
+.instagram span {
+    padding: 0 8px;
+}
+.multimedia-box iframe {
+    height: 100%;
+}
+.insta-title {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 2em;
+    color: #B1B1B1;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+.insta-photo-box {
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+
+/*** Testimonials ***/
+.testimonials-box {
+    min-height: 300px;
+    margin-top: 30px;
+    background-color: #0067d0;
+    background-image: url(../img/quot1.png),url(../img/quot2.png);
+    background-position: left top,right bottom;
+    background-repeat: no-repeat,no-repeat;
+    border-bottom-left-radius: 10px;
+}
+.container {
+    padding: 0 40px;
+}
+.testimonial-title {
+    padding: 30px 0 50px 0;
+}
+.testimonial-title span {
+    font-size: 2rem;
+    margin-left: 15px;
+}
+.testimonial-title h2 {
+    font-size: 3.5rem;
+    display: inline-block;
+}
+.testimonial-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5rem;
+}
+.content {
+    border: 1px solid rgba(255, 255, 255, .3);
+    padding: 30px 25px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-family: font36452;
+}
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.content h3 {
+    font-weight: bold;
+}
+.content span {
+    font-size: 1rem;
+    opacity: .6;
+}
+.content p {
+    padding-left: 10px;
+    line-height: 15px;
+}
+
+/*** Footer ***/
+.footer {
+    height: 70px;
+    color: #707070;
+    display: flex;
+    justify-content: space-between;
+    line-height: 70px;
+}
+.social-icons i {
+    margin-right: 10px;
+}
